@@ -1,0 +1,35 @@
+header {margin-top:130px;
+        display:;}
+
+
+h1 {font-family:monospace;
+    font-size:50px;
+    text-align:center;
+    Background:royalblue;
+    border-radius:25%}
+
+
+
+img {display:block;
+     margin-right:auto;
+      margin-left:auto;
+     width:30%;
+      }
+
+@media (max-width:100px;)
+{
+  body{background-color:blue;}
+}
+
+nav {position:fixed;
+  align-items:center;
+          top:0%;
+          left:0%;
+          width:100%;
+  background: rgb(0,0,200,0.8);
+  padding:10px;
+  
+}
+
+nav-link {display:flex;
+    align-items:center;}
