@@ -1,6 +1,6 @@
 header {margin-top:130px;
         }
-
+body {background-color:;}
 
 h1 {font-family:monospace;
     font-size:50px;
@@ -18,35 +18,34 @@ img {display:grid;
 
 #nav-bar {position:fixed;
         display:grid;
-        grid-auto-flow: column;
-        min-height: 100px;
           top:0%;
           left:0%;
           width:100%;
         background: rgba(155, 155, 15, 0.568);
-        padding:10px;}
+        padding:1px;}
 
 .nav-link{
         display:grid;
-        min-height:10px;
+        min-height:px;
         justify-content: center;
-        align-content: stretch;
-        grid-auto-flow: column;
+        align-content: center;
+        grid-auto-flow:columns;
         color:black;
-        padding-right: 250px;}
-
-        
+        }       
 ul {list-style-type: none;}/* Removes bullets from list */
 
 #header-img { display:block;
         margin-right:10px;;
         border-radius: 25%;
         background-color:black;
-        width:45%;}
+        width:80px;
+        height:100px;}
 
-.logo {background-size: contain;}
+.logo {background-size: contain;
+        position:fixed;
+        height:50px;}
 
-.samplework {display:block;
+.samplework {display:block; 
         width:80%;
         border-radius: 5%;
         border: 5px solid black;}
@@ -54,4 +53,6 @@ ul {list-style-type: none;}/* Removes bullets from list */
 .container {display:block;
             padding-top:50px;
             margin-left:auto;
-                margin-right:auto;    }
+                margin-right:auto;}
+
+.btn:hover {background-color:rgba(155, 155, 15, 0.568);}
