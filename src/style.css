@@ -13,9 +13,8 @@ h2 {text-align:center;
 
 #form {text-align:center;}
 
-img {display:block;
-     margin-right:auto;
-     width:60%;}
+img {display:grid;
+     margin-right:auto;}
 
 #nav-bar {position:fixed;
         display:grid;
@@ -36,8 +35,23 @@ img {display:block;
         color:black;
         padding-right: 250px;}
 
-ul {list-style-type: none;}
+        
+ul {list-style-type: none;}/* Removes bullets from list */
 
-.logo { display:grid;
-        justify-content: start;}
+#header-img { display:block;
+        margin-right:10px;;
+        border-radius: 25%;
+        background-color:black;
+        width:45%;}
 
+.logo {background-size: contain;}
+
+.samplework {display:block;
+        width:80%;
+        border-radius: 5%;
+        border: 5px solid black;}
+
+.container {display:block;
+            padding-top:50px;
+            margin-left:auto;
+                margin-right:auto;    }
