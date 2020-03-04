@@ -1,6 +1,6 @@
 header {margin-top:130px;
         }
-body {background-color:;}
+body {background-color:grey;}
 
 h1 {font-family:monospace;
     font-size:50px;
@@ -35,7 +35,7 @@ img {display:grid;
 ul {list-style-type: none;}/* Removes bullets from list */
 
 #header-img { display:block;
-        margin-right:10px;;
+        margin-right:10px;
         border-radius: 25%;
         background-color:black;
         width:80px;
@@ -56,3 +56,7 @@ ul {list-style-type: none;}/* Removes bullets from list */
                 margin-right:auto;}
 
 .btn:hover {background-color:rgba(155, 155, 15, 0.568);}
+
+@media all and (max-width:500px) {
+        body {background-color: blue;}
+}
