@@ -1,12 +1,14 @@
-header {margin-top:130px;
-        }
+
 body {background-color:grey;}
 
 h1 {font-family:monospace;
     font-size:50px;
     text-align:center;
+    margin-top:30px;
     Background:rgba(155, 155, 15, 0.568);
     border-radius:25%}
+
+p{text-align: center;}
 
 h2 {text-align:center;
         padding-top:50px;}
@@ -15,48 +17,76 @@ h2 {text-align:center;
 
 img {display:grid;
      margin-right:auto;}
+     
+     
+header {display:flex;
+        justify-content: space-between;
+        align-content: flex-end;
+        padding:30px 10%;
+     }
+
 
 #nav-bar {position:fixed;
-        display:grid;
           top:0%;
           left:0%;
           width:100%;
         background: rgba(155, 155, 15, 0.568);
-        padding:1px;}
+        padding:20px;
+
+}
+
+.nav-items li {
+        display:inline-block;
+        margin-left:150px;
+        padding: 0px 20px;
+}
+
+.nav-items li a {transition: all 0.3 ease 0s;}
+
+.nav-items li a:hover {transition: all 0.3 ease 0s;
+                        color:blue;}
 
 .nav-link{
-        display:grid;
-        min-height:px;
-        justify-content: center;
-        align-content: center;
-        grid-auto-flow:columns;
         color:black;
         }       
-ul {list-style-type: none;}/* Removes bullets from list */
 
-#header-img { display:block;
-        margin-right:10px;
+        ul {list-style-type: none;}/* Removes bullets from list */
+
+#header-img { position:fixed;
+        order:1;
+        top:0;
+        left:0;
         border-radius: 25%;
         background-color:black;
         width:80px;
-        height:100px;}
+        height:90px;}
 
 .logo {background-size: contain;
         position:fixed;
         height:50px;}
 
-.samplework {display:block; 
+.samplework {display:block;
+        margin-left: auto;
+        margin-right:auto;
         width:80%;
         border-radius: 5%;
         border: 5px solid black;}
 
-.container {display:block;
+.container {display: block;
             padding-top:50px;
             margin-left:auto;
                 margin-right:auto;}
 
-.btn:hover {background-color:rgba(155, 155, 15, 0.568);}
+.btn:hover {background-color:rgba(155, 155, 15, 0.568);
+        transition: all 0.3 ease 3s;
+}
 
 @media all and (max-width:500px) {
         body {background-color: blue;}
 }
+
+#video {
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        align-content: center;}
